@@ -65,9 +65,9 @@ public class MainTest {
 
     private void initDriver() {
         this.driver = new DriverHandler();
-        this.driver.setUrl_Hub("http://MY SELENIUM IP:4444/wd/hub");
+        this.driver.setUrl_Hub("http://52.87.198.111:4444/wd/hub");
         this.driver.setBrowser(Browser.CHROME);
-        this.driver.setBrowserType(BrowserType.LOCAL);
+        this.driver.setBrowserType(BrowserType.HUB);
         this.driver.setUPDriverHandler();
     }
 
