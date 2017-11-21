@@ -29,6 +29,11 @@ public class MainTest {
         try {
             
             String opc = "Hola";
+            String opc = "Hola";
+            String opc = "Hola";
+            String opc = "Hola";
+            String opc = "Hola";
+            String opc = "Hola";
             
             switch(opc) {
                 case "Hola": 
