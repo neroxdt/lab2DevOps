@@ -44,6 +44,15 @@ public class MainTest {
 	    while(true){
 	    }
 
+	    TestCaseBolivariano obj;
+
+	    if(obj != null){
+		System.out.println("Test Codigo");
+	    }
+
+	    obj.cargarMainPage();
+
+
             // Init TestCase Bolivariano
             TestCaseBolivariano ts = new TestCaseBolivariano(this);
 
