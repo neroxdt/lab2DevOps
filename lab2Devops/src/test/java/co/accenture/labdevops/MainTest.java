@@ -24,7 +24,7 @@ public class MainTest {
     }
 
     @Test
-    public void hello() {
+    public void hello() 
         
         try {
             // Init TestCase Bolivariano
