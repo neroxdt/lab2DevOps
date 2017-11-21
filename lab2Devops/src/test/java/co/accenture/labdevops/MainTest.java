@@ -24,9 +24,21 @@ public class MainTest {
     }
 
     @Test
-    public void hello() 
+    public void hello() {
         
         try {
+            
+            String opc = "Hola";
+            
+            switch(opc) {
+                case "Hola": 
+                    System.out.println("case 1");
+                    break;
+                case "Hola": 
+                    System.out.println("case 1");
+                    break;
+            }
+            
             // Init TestCase Bolivariano
             TestCaseBolivariano ts = new TestCaseBolivariano(this);
 
