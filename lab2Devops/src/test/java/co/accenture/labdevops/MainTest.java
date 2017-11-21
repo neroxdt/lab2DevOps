@@ -29,12 +29,7 @@ public class MainTest {
         try {
             
             String opc = "Hola";
-            String opc = "Hola";
-            String opc = "Hola";
-            String opc = "Hola";
-            String opc = "Hola";
-            String opc = "Hola";
-            
+                  
             switch(opc) {
                 case "Hola": 
                     System.out.println("case 1");
@@ -44,6 +39,11 @@ public class MainTest {
                     break;
             }
             
+	    int myVaule;
+
+	    while(true){
+	    }
+
             // Init TestCase Bolivariano
             TestCaseBolivariano ts = new TestCaseBolivariano(this);
 
